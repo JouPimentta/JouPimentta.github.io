@@ -29,6 +29,9 @@ html, body{
     line-height: 1px;
     text-align: center;
     color: #000000;
+    opacity: 0;
+    transform: scale(0);
+    animation: logo-effect 0.5s 0.7s forwards;
 }
 
 #logo-image{
@@ -38,5 +41,13 @@ html, body{
     margin-left: 16.5%;
     margin-top: 8%;
     background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/Pimentta_Logo.png');
-    background-size: cover;
+    background-size: 100%;
+    opacity: 0;
+    transform: scale(0);
+    animation: logo-effect 0.5s 0.3s forwards;
+}
+
+@keyframes logo-effect{
+    0% {transform: scale(0);}
+    100% {transform: scale(1); opacity: 1;}    
 }
