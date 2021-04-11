@@ -68,6 +68,15 @@ html, body{
 .orange{border-bottom: #FF5B23 solid 10px;}
 .yellow{border-bottom: #FF9423 solid 10px;}
 
+.button-image{
+    background-color: #c5c5c5;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
 .button-text{
     width: 372px;
     height: 100px;
