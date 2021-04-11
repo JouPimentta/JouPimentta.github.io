@@ -11,3 +11,11 @@ html, body{
     margin-left: 26%;
     background-color: lightblue;
 }
+
+#text-area{
+    position: absolute;
+    width: 450px;
+    height: 121px;
+    margin-top: 75%;
+    background-color: rgb(150, 150, 219);
+}
