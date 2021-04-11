@@ -47,6 +47,24 @@ html, body{
     animation: logo-effect 0.5s 0.3s forwards;
 }
 
+#footer{
+    position: absolute;
+    width: 460px;
+    height: 80px;
+    margin-top: 205%;
+    margin-left: 25%;
+}
+
+#footer-text{
+    font-family: "Futura Bk BT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
 @keyframes logo-effect{
     0% {transform: scale(0);}
     100% {transform: scale(1); opacity: 1;}    
