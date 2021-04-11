@@ -47,6 +47,16 @@ html, body{
     animation: logo-effect 0.5s 0.3s forwards;
 }
 
+.grid-container{    
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    margin-top: 65%;
+    margin-left: 9.9%;
+    display: grid;
+    background-color: lightgray;
+}
+
 #footer{
     position: absolute;
     width: 460px;
