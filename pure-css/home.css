@@ -61,8 +61,12 @@ html, body{
 }
 
 .button{
-    background-color: rgb(255, 240, 193);
+    background-color: #FFF;
 }
+
+.red{border-bottom: #FF3523 solid 10px;}
+.orange{border-bottom: #FF5B23 solid 10px;}
+.yellow{border-bottom: #FF9423 solid 10px;}
 
 #footer{
     position: absolute;
