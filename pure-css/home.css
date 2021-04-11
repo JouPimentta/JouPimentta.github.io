@@ -9,7 +9,6 @@ html, body{
     height: 462px;
     margin-top: 15%;
     margin-left: 26%;
-    background-color: lightblue;
 }
 
 #text-area{
@@ -27,4 +26,13 @@ html, body{
     line-height: 1px;
     text-align: center;
     color: #000000;
+}
+
+#logo-image{
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    margin-left: 16.5%;
+    margin-top: 8%;
+    background-color: cadetblue;
 }
