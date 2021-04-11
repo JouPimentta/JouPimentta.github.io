@@ -1,6 +1,9 @@
 html, body{
     width: 100%;
     margin: 0;
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/pattern_bckg.png');
+    background-size: 35%;
+    background-position: -3% 0%;
 }
 
 #logo-area{
@@ -34,6 +37,6 @@ html, body{
     height: 290px;
     margin-left: 16.5%;
     margin-top: 8%;
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/Pimentta_Logo.png ');
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/Pimentta_Logo.png');
     background-size: cover;
 }
