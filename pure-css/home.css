@@ -34,5 +34,6 @@ html, body{
     height: 290px;
     margin-left: 16.5%;
     margin-top: 8%;
-    background-color: cadetblue;
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/Pimentta_Logo.png ');
+    background-size: cover;
 }
