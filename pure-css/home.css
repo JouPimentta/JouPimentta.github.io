@@ -10,7 +10,7 @@ html, body{
     position: absolute;
     width: 450px;
     height: 462px;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 26%;
 }
 
@@ -54,7 +54,14 @@ html, body{
     margin-top: 65%;
     margin-left: 9.9%;
     display: grid;
-    background-color: lightgray;
+    grid-template-columns: 372px 372px;
+    grid-column-gap: 5%;
+    grid-template-rows: 395px 395px 395px;
+    grid-row-gap: 3%;
+}
+
+.button{
+    background-color: rgb(255, 240, 193);
 }
 
 #footer{
