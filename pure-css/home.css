@@ -68,6 +68,16 @@ html, body{
 .orange{border-bottom: #FF5B23 solid 10px;}
 .yellow{border-bottom: #FF9423 solid 10px;}
 
+.button-text{
+    width: 372px;
+    height: 100px;
+    margin-top: 80%;
+
+    font-family: 'Futura Bk BT';
+    font-size: 50px;
+    text-align: center;
+}
+
 #footer{
     position: absolute;
     width: 460px;
