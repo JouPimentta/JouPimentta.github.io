@@ -1,6 +1,13 @@
 html, body{
     width: 100%;
     margin: 0;
-    background-color: gray;
 }
 
+#logo-area{
+    position: absolute;
+    width: 450px;
+    height: 462px;
+    margin-top: 15%;
+    margin-left: 26%;
+    background-color: lightblue;
+}
