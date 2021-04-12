@@ -69,12 +69,11 @@ html, body{
 .yellow{border-bottom: #FF9423 solid 10px;}
 
 .button-image{
-    background-color: #c5c5c5;
     position: absolute;
-    width: 35%;
-    height: 20%;
-    margin-top: 3%;
-    margin-left: 6%;
+    width: 27%;
+    height: 17%;
+    margin-top: 6%;
+    margin-left: 10%;
 }
 
 .button-text{
@@ -85,6 +84,35 @@ html, body{
     font-family: 'Futura Bk BT';
     font-size: 50px;
     text-align: center;
+}
+
+.commis{
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/comms_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.portfolio{
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/portfolio_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about{
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/aboutme_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.contact{
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/contacts_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%;
+}
+.coming{
+    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/coming_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
 }
 
 #footer{
