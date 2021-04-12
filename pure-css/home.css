@@ -1,7 +1,7 @@
 html, body{
     width: 100%;
     margin: 0;
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/pattern_bckg.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/pattern_bckg.png');
     background-size: 35%;
     background-position: -3% 0%;
 }
@@ -40,7 +40,7 @@ html, body{
     height: 290px;
     margin-left: 16.5%;
     margin-top: 8%;
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/Pimentta_Logo.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/Pimentta_Logo.png');
     background-size: 100%;
     opacity: 0;
     transform: scale(0);
@@ -96,29 +96,29 @@ html, body{
 }
 
 .commis{
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/comms_icon.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/comms_icon.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.portfolio{
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/portfolio_icon.png');
+.JouPimentta.github.io{
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/portfolio_icon.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .about{
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/aboutme_icon.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/aboutme_icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
 .contact{
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/contacts_icon.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/contacts_icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 85%;
 }
 .coming{
-    background-image: url('C:/Users/josue/Documents/GitHub/portfolio/images/coming_icon.png');
+    background-image: url('C:/Users/josue/Documents/GitHub/JouPimentta.github.io/images/coming_icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 45%;
