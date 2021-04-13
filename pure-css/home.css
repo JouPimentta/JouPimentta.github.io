@@ -167,4 +167,65 @@ html, body{
         background-size: 13%;
         background-position: -3% 0%;
     }
+
+    #logo-area{
+        position: absolute;
+        width: 180px;
+        height: 192px;
+        margin-top: 2%;
+        margin-left: 43%;
+    }
+    
+    #text-area{
+        position: absolute;
+        width: 100%;
+        height: 27%;
+        margin-top: 65%;
+    }
+    
+    #logo-text{
+        font-family: 'Futura Md BT';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+        opacity: 0;
+        transform: scale(0);
+        animation: logo-effect 0.5s 0.7s forwards;
+    }
+    
+    #logo-image{
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        margin-left: 18.5%;
+        margin-top: 8%;
+        background-image: url('images/Pimentta_Logo.png');
+        background-size: 100%;
+        opacity: 0;
+        transform: scale(0);
+        animation: logo-effect 0.5s 0.3s forwards;
+    }
+    .grid-container{    
+        position: absolute;
+        width: 41.3%;
+        height: 52.5%;
+        margin-top: 15%;
+        margin-left: 29%;
+        display: grid;
+        grid-template-columns: 167px 167px 167px;
+        grid-column-gap: 5%;
+        grid-template-rows: 167px 167px;
+        grid-row-gap: 3%;
+    }
+    
+    .button{
+        background-color: #FFF;
+    }
+    @keyframes logo-effect{
+        0% {transform: scale(0);}
+        100% {transform: scale(1); opacity: 1;}    
+    }
+    
 }
