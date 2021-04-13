@@ -24,8 +24,7 @@ html, body{
 #logo-text{
     font-family: 'Futura Md BT';
     font-style: normal;
-    font-weight: normal;
-    font-size: 62px;
+    font-size: 50%;
     line-height: 1px;
     text-align: center;
     color: #000000;
