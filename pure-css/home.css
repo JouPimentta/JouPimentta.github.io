@@ -16,16 +16,16 @@ html, body{
 
 #text-area{
     position: absolute;
-    width: 100%;
-    height: 27%;
-    margin-top: 75%;
+    width: 60%;
+    height: 7%;
+    margin: 45% 0 0 20%;
+    z-index: 1;
 }
 
 #logo-text{
-    font-family: 'Quicksand', sans-serif;;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 68px;
     line-height: 1;
     text-align: center;
     color: #000000;
