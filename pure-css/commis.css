@@ -1,5 +1,6 @@
 html, body{
     width: 100%;
+    height: 100%;
     margin: 0;
 }
 
@@ -31,4 +32,37 @@ html, body{
     text-align: center;
     color: #000000;
     text-shadow: -6px 6px 0px #FF9423;
+}
+
+.text-area{
+    position: absolute;
+    margin: 68% 0 0 6%;
+    width: 87%;
+    height: 80%;
+}
+
+.texts{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+
+.text1{
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.text2{
+    position: absolute;
+    font-size: 46px;
+    margin-top: 80%;
+    text-align: left;
+    font-weight: 600;
+}
+.text3{
+    position: absolute;
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 180%;
 }
