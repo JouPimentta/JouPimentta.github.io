@@ -6,14 +6,31 @@ html, body{
 
 .button{
     position: absolute;
-    width: 70%;
-    height: 150px;
+    width: 80%;
+    height: 185px;
     border-radius: 100px;
 }
 
 .top-button{
-    margin: 11% 0 0 13.5%;
+    margin: 11% 0 0 9%;
     background-color: #EAEAEA;
+}
+
+.tabel-button{
+    margin: 103% 0 0 9%;
+    background-color: #FF9423;
+}
+
+.button-text{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 11%;
 }
 
 .title-area{
@@ -56,7 +73,7 @@ html, body{
 .text2{
     position: absolute;
     font-size: 46px;
-    margin-top: 80%;
+    margin-top: 90%;
     text-align: left;
     font-weight: 600;
 }
@@ -64,5 +81,27 @@ html, body{
     position: absolute;
     font-size: 46px;
     font-weight: 600;
-    margin-top: 180%;
+    margin-top: 195%;
 }
+
+.subtitle-area{
+    width: 60%;
+    height: 7%;
+    position: absolute;
+}
+
+.rules{
+    margin-top: 67%;
+}
+
+.pay{
+    margin-top: 172%;
+}
+
+.subtitle-text{
+    font-size: 80px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+.subrules{color: #FF3523;}
+.subpay{color: #375E7A;}
