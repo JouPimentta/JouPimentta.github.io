@@ -11,6 +11,24 @@ html, body{
 }
 
 .top-button{
-    margin: 5% 0 0 13.5%;
+    margin: 11% 0 0 13.5%;
     background-color: #EAEAEA;
+}
+
+.title-area{
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    margin: 26% 0 0 9.5%;
+}
+
+.title{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 1.1;
+    text-align: center;
+    color: #000000;
+    text-shadow: -6px 6px 0px #FF9423;
 }
