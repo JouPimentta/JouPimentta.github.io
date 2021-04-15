@@ -17,8 +17,14 @@ html, body{
 }
 
 .tabel-button{
-    margin: 103% 0 0 9%;
+    margin: 106% 0 0 9%;
     background-color: #FF9423;
+}
+
+.commis-button{
+    height: 11%;
+    margin: 257% 0 0 9%;
+    background-color: #FF5A4B;
 }
 
 .button-text{
@@ -28,10 +34,12 @@ html, body{
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 1;
     text-align: center;
-    margin-top: 11%;
+    margin-top: 9%;
 }
+
+.commis-text{color: #FFF; margin-top: 8%;}
 
 .title-area{
     position: absolute;
@@ -55,7 +63,7 @@ html, body{
     position: absolute;
     margin: 68% 0 0 6%;
     width: 87%;
-    height: 80%;
+    height: 105%;
 }
 
 .texts{
