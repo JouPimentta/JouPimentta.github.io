@@ -180,7 +180,7 @@ html, body{
         width: 55%;
         height: 100%;
         margin: 0 0 0 23.4%;
-        background-color: aquamarine;
+        /*background-color: aquamarine;*/
     }
     .button{
         position: absolute;
@@ -205,5 +205,24 @@ html, body{
         transform: scale(0);
         animation: button-scale 0.5s 0.3s forwards;
     }
+    .title-area{
+        position: absolute;
+        width: 80%;
+        height: 400px;
+        margin: 5% 0 0 -12.5%;
+        animation: title 0.7s 0.3s forwards;
+        opacity: 0;
+    }    
+    .title{
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 1.1;
+        text-align: center;
+        color: #000000;
+        text-shadow: -3px 4px 0px #FF9423;
+    }
+    
     
 }
