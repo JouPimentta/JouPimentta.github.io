@@ -256,7 +256,7 @@ a{color: #000;}
         grid-template-columns: 163px 163px 163px;
         grid-column-gap: 5%;
         grid-template-rows: 163px 163px;
-        grid-row-gap: 3%;
+        grid-row-gap: 5%;
     }
 
     .button{
