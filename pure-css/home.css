@@ -13,6 +13,8 @@ html, body{
     background-position: -3% 0%;
 }
 
+a{background-color: #FFF; color: #000;}
+
 /* LOGO */
 
 #logo-area{
@@ -98,6 +100,12 @@ html, body{
     margin-left: 19%;
     transform: scale(0);
     animation: scale-button 1s 0.5s forwards;
+}
+
+.star{
+    width: 376px;
+    height: 386px;
+    position: absolute;
 }
 
 .button-text{
