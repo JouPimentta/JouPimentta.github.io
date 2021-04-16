@@ -174,12 +174,36 @@ html, body{
         margin: 0;
         background-image: url('images/backgrounds/cross_pattern_bckg.png');
         background-size: 4%;
-        background-position: 0.9% 0%;;
+        background-position: 0.9% 0%;
     }
-
     #commissions-area{
         width: 55%;
         height: 100%;
         margin: 0 0 0 23.4%;
+        background-color: aquamarine;
     }
+    .button{
+        position: absolute;
+        width: 25%;
+        height: 60px;
+        border-radius: 100px;
+    }    
+    .button-text{
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        margin-top: 6.7%;
+    }
+    .top-button{
+        margin: 2% 0 0 14%;
+        background-color: #EAEAEA;
+        transform: scale(0);
+        animation: button-scale 0.5s 0.3s forwards;
+    }
+    
 }
