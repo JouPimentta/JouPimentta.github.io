@@ -1,3 +1,9 @@
+/* CSS DOCUMENT
+ Pimentta Arts | Commissions page
+
+ MOBILE FIRST!
+ 
+ PAGE STRUCTURE */
 html, body{
     width: 100%;
     height: 100%;
@@ -6,6 +12,8 @@ html, body{
     background-size: 7%;
     background-position: 1.3% 0%;
 }
+
+/* BUTTONS */
 
 .button{
     position: absolute;
@@ -49,6 +57,8 @@ html, body{
 }
 
 .commis-text{color: #FFF; margin-top: 6%;}
+
+/* TEXTS */
 
 .title-area{
     position: absolute;
@@ -134,6 +144,8 @@ html, body{
 .subrules{color: #FF3523;}
 .subpay{color: #375E7A;}
 
+/* FOOTER */
+
 #footer{
     position: absolute;
     width: 100%;
@@ -151,6 +163,8 @@ html, body{
     text-align: center;
     color: #000000;
 }
+
+/* ANIMATIONS */
 
 @keyframes title{
     0%{transform:translateY(-50px); opacity: 0;}
@@ -172,7 +186,12 @@ html, body{
     100% {opacity: 1;}
 }
 
+/* Commissions page | DESKTOP */
+
 @media (min-width:1281px){
+
+    /* PAGE STRUCTURE */
+
     html, body{
         width: 100%;
         height: 100%;
@@ -181,11 +200,15 @@ html, body{
         background-size: 4%;
         background-position: 0.9% 0%;
     }
+
     #commissions-area{
         width: 55%;
         height: 200%;
         margin: 0 0 0 23.4%;
     }
+
+    /* BUTTONS */
+
     .button{
         position: absolute;
         width: 25%;
@@ -240,6 +263,9 @@ html, body{
         transform: scale(1.2);
     }  
     .commis-text{color: #FFF;}
+
+    /* TEXTS */
+
     .title-area{
         position: absolute;
         width: 80%;
@@ -324,7 +350,9 @@ html, body{
     }
     .subrules{color: #FF3523;}
     .subpay{color: #375E7A;}
-    
+
+    /* FOOTER */
+
     #footer{
         position: absolute;
         width: 100%;
@@ -342,6 +370,8 @@ html, body{
         text-align: center;
         color: #000000;
     }
+
+    /* ANIMATIONS */
 
     @keyframes button-opc{
         0%{opacity: 0;}
