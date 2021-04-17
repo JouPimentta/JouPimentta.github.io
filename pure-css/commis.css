@@ -219,7 +219,7 @@ html, body{
         transform: scale(0);
         animation: button-scale 0.5s 2.3s forwards;
     }
-    
+    .commis-text{color: #FFF;}
     .title-area{
         position: absolute;
         width: 80%;
