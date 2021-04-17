@@ -185,14 +185,13 @@ html, body{
         width: 55%;
         height: 200%;
         margin: 0 0 0 23.4%;
-        /*background-color: aquamarine;*/
     }
     .button{
         position: absolute;
         width: 25%;
         height: 60px;
         border-radius: 100px;
-    }    
+    }
     .button-text{
         font-family: 'Quicksand', sans-serif;
         font-style: normal;
@@ -218,12 +217,13 @@ html, body{
     .tabel-button{
         margin: 26% 0 0 14%;
         background-color: #FF9423;
-        opacity: 0;
         transform: scale(1);
+        opacity: 0;
         animation: button-opc 0.5s 0.9s forwards;
     }
     .tabel-button:hover{
-        transition: 0.5s;
+        cursor: pointer;
+        transition: 0.2s;
         transform: scale(1.2);
     }
     .commis-button{
@@ -235,6 +235,7 @@ html, body{
         animation: button-opc 0.5s 2.3s forwards;
     }
     .commis-button:hover{
+        cursor: pointer;
         transition: 0.2s;
         transform: scale(1.2);
     }  
