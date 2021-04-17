@@ -245,6 +245,7 @@ html, body{
         opacity: 0;
         transition: 0.2s;
         animation: button-opc 0.5s 0.9s forwards;
+        z-index: 2;
     }
     .tabel-button:hover{
         cursor: pointer;
