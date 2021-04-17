@@ -71,7 +71,7 @@ html, body{
 }
 
 .title{
-    font-family: 'Century Gothic';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 110px;
@@ -139,7 +139,7 @@ html, body{
 
 .subtitle-text{
     font-size: 80px;
-    font-family: 'Century Gothic';
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
 .subrules{color: #FF3523;}
@@ -280,7 +280,7 @@ html, body{
         opacity: 0;
     }    
     .title{
-        font-family: 'Century Gothic';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 60px;
@@ -350,7 +350,7 @@ html, body{
     
     .subtitle-text{
         font-size: 40px;
-        font-family: 'Century Gothic';
+        font-family: 'Inter', sans-serif;
         font-weight: bold;
     }
     .subrules{color: #FF3523;}
