@@ -231,6 +231,7 @@ html, body{
         background-color: #EAEAEA;
         transform: scale(1);
         opacity: 0;
+        transition: 0.2s;
         animation: button-opc 0.5s 0.3s forwards;
     }
     .top-button:hover{
@@ -242,6 +243,7 @@ html, body{
         background-color: #FF9423;
         transform: scale(1);
         opacity: 0;
+        transition: 0.2s;
         animation: button-opc 0.5s 0.9s forwards;
     }
     .tabel-button:hover{
@@ -255,6 +257,7 @@ html, body{
         background-color: #FF5A4B;
         transform: scale(1);
         opacity: 0;
+        transition: 0.2s;
         animation: button-opc 0.5s 2.3s forwards;
     }
     .commis-button:hover{
