@@ -31,7 +31,7 @@ html, body{
 
 #portfolio-area{
     position: absolute;
-    margin-top: 35%;
+    margin-top: 60%;
     width: 100%;
     height: 100%;
 }
@@ -51,9 +51,22 @@ html, body{
 .title-area{
     position: absolute;
     width: 90%;
-    margin: 0 0 0 5%;
+    margin: 35% 0 0 5%;
     height: 10%;
+}
 
+.grid-container{    
+    width: 100%;
+    display: grid;
+    padding: 0%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+.image-area{margin: 0 0 -1% 0;}
+
+.images{
+    width: 100.5%;
+    height: 100%;
 }
 
 @keyframes button-scale{
