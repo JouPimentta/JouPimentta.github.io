@@ -182,6 +182,22 @@ html, body{
         opacity: 0;
         animation: title 0.7s 0.5s forwards;
     }
+    .text-area{
+        position: absolute;
+        margin: 15% 0 0 19%;
+        width: 60%;
+        height: 15%;
+        opacity: 0;
+        animation: text-opc 0.5s 1s forwards;
+    }    
+    .text{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        font-style: normal;
+        color: #000000;
+    }
     @keyframes button-opc{
         0%{opacity: 0;}
         100%{opacity: 1;}    
