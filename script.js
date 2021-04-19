@@ -7,6 +7,10 @@ window.onload = () => {
     for (let i = 0; i < gallery.length; i++){
         gallery[i].onclick = ()=>{
             console.log(i);
+            function preview(){
+                let selectedImgUrl = gallery[i].querySelector("img").src
+                console.log(selectedImgUrl)
+            }
             previewBox.classList.add("show");
 
             closeIcon.onclick = ()=>{                
