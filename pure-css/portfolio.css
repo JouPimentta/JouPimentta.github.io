@@ -237,6 +237,11 @@ html, body{
         pointer-events: none;
         opacity: 0;
     }
+    .show{             
+        pointer-events: auto;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
     .preview-box{
         position: fixed;
         background-color: #fff;
