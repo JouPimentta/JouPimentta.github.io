@@ -33,7 +33,6 @@ html, body{
     position: absolute;
     margin-top: 87%;
     width: 100.7%;
-    height: 100%;
 }
 
 .title{
@@ -78,15 +77,12 @@ html, body{
 .grid-container{    
     width: 100%;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-columns: 100.7%;
 }
 
 .image-area{margin: 0 0 -1% 0}
-
 .images{
     width: 100%;
-    height: 100%;
     opacity: 0;
     animation: footer 0.5s 1.5s forwards;
 }
@@ -94,7 +90,7 @@ html, body{
 #footer{
     position: absolute;
     width: 100%;
-    height: 7%;
+    height: 0.7%;
     animation: footer 0.5s 0.7s forwards;
 }
 
@@ -197,6 +193,36 @@ html, body{
         text-align: center;
         font-style: normal;
         color: #000000;
+    }
+    #portfolio-area{
+        position: absolute;
+        margin-top: 23%;
+        width: 90%;
+        height: 100%;
+        background-color: aqua;
+    }
+    .grid-container{
+        position: absolute;    
+        display: grid;
+        grid-template-columns: repeat(5, 269.5px);
+        grid-template-rows: repeat(4, 269px);
+    }
+    .image-area{overflow: hidden;}
+    .images{
+        width: 100%;
+        height: 100%;
+    }
+    .vertical{
+        height: 140%;
+        margin: -10% 0 0 0;
+    }
+    .vertical2{
+        height: 120%;
+        margin: -8% 0 0 0;
+    }
+    .horizont{
+        width: 130%;
+        margin: 0 0 0 -17%;
     }
     @keyframes button-opc{
         0%{opacity: 0;}
