@@ -1,0 +1,130 @@
+html, body{
+    width: 100%;
+    margin: 0;
+}
+
+.button{    
+    position: absolute;
+    width: 80%;
+    height: 185px;
+    border-radius: 100px;
+}
+
+.top-button{
+    margin: 11% 0 0 9%;
+    background-color: #EAEAEA;
+    transform: scale(0);
+    animation: button-scale 0.5s 0.3s forwards;
+}
+
+.button-text{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    margin-top: 9%;
+}
+
+#portfolio-area{
+    position: absolute;
+    margin-top: 85%;
+    width: 100.7%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 1.1;
+    text-align: center;
+    color: #000000;
+    margin: 5% 0 0 0;
+    text-shadow: -8px 8px 0px #FF5A4B;
+}
+
+.title-area{
+    position: absolute;
+    width: 90%;
+    margin: 35% 0 0 5%;
+    height: 10%;
+    opacity: 0;
+    animation: title 0.7s 0.5s forwards;
+}
+
+.text-area{
+    position: absolute;
+    margin: 55% 0 0 5%;
+    width: 90%;
+    height: 15%;
+    opacity: 0;
+    animation: text-opc 0.5s 1s forwards;
+}
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    color: #000000;
+}
+
+.grid-container{    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+.image-area{margin: 0 0 -1% 0}
+
+.images{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: footer 0.5s 1.5s forwards;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    animation: footer 0.5s 0.7s forwards;
+}
+
+#footer-text{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 1;
+    margin-top: 6%;
+    text-align: center;
+    color: #000000;
+}
+
+@keyframes button-scale{
+    0%{transform:scale(0); opacity: 0;}
+    100%{transform:scale(1); opacity: 1;}    
+}
+
+@keyframes title{
+    0%{transform:translateY(-50px); opacity: 0;}
+    100%{transform:translateY(0px); opacity: 1;}
+}
+
+@keyframes text-opc{
+    0%{transform:translateY(-50px); opacity: 0;}
+    100%{transform:translateY(0px); opacity: 1;}
+}
+
+@keyframes footer{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
