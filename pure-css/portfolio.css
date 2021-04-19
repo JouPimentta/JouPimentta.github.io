@@ -163,6 +163,25 @@ html, body{
         transition: 0.2s;
         transform: scale(1.2);
     }
+    .title{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 1.1;
+        text-align: center;
+        color: #000000;
+        margin: 5% 0 0 0;
+        text-shadow: -4px 4px 0px #FF5A4B;
+    }    
+    .title-area{
+        position: absolute;
+        width: 90%;
+        margin: 5% 0 0 4.7%;
+        height: 10%;
+        opacity: 0;
+        animation: title 0.7s 0.5s forwards;
+    }
     @keyframes button-opc{
         0%{opacity: 0;}
         100%{opacity: 1;}    
