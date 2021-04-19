@@ -1,21 +1,23 @@
 // selecting all required elements
-const gallery = document.querySelectorAll('.grid-container .images'),
+const images = document.querySelectorAll('.image-area'),
 previewBox = document.querySelector('.background'),
-closeIcon = document.querySelector('.x-icon');
+previewImg = previewBox.querySelector('.image-show'),
+closeIcon = previewBox.querySelector('.x-icon');
 
 window.onload = () => {
-    for (let i = 0; i < gallery.length; i++){
-        gallery[i].onclick = ()=>{
-            console.log(i);
-            function preview(){
-                let selectedImgUrl = gallery[i].querySelector("img").src
-                console.log(selectedImgUrl)
-            }
-            previewBox.classList.add("show");
-
+    for (let i = 0; i < images.length; i++){
+        images[i].onclick = ()=>{
+            console.log(i);            
+                function preview(){
+                    let imageUrl = images[i].querySelector('img').src;
+                    previewImg.src = imageUrl;
+                    console.log(imageUrl);
+                }
+            previewBox.classList.add("show");     
             closeIcon.onclick = ()=>{                
                 previewBox.classList.remove("show");
             }
+            preview();               
         }
     }
 }
