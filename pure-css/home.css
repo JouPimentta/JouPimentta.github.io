@@ -108,6 +108,13 @@ a{color: #000;}
     position: absolute;
 }
 
+.suit{
+    width: 376px;
+    height: 386px;
+    position: absolute;
+}
+
+
 .button-text{
     width: 372px;
     height: 100px;
