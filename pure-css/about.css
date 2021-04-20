@@ -48,10 +48,14 @@ html, body{
     height: 29%;
     margin: 2% 0 0 17.5%;
     border-radius: 100%;
+    opacity: 0;
+    transform: scale(0);
+    animation: image-scale .7s .7s forwards;
 }
 
 .text{
     font-family: 'Quicksand', sans-serif;
+    font-weight: 430;
     margin-top: 0;
     text-align: center;
     color: #000000;    
@@ -66,7 +70,7 @@ html, body{
 }
 
 .subtitle{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
@@ -76,7 +80,9 @@ html, body{
     position: absolute;
     width: 82%;
     height: 10%;
+    opacity: 0;
     margin: 68% 0 0 8.5%;
+    animation: title-down 1s 1.3s forwards;
 }
 
 .sub-area{
@@ -84,11 +90,13 @@ html, body{
     width: 60%;
     height: 5%;
     margin: 82% 0 0 19.7%;
+    opacity: 0;
+    animation: title-down 1s 1.7s forwards;
 }
 
 .p{
     width: 80%;
-    height: 30%;
+    height: 31%;
     margin: 0 0 0 10%;
 }
 
@@ -100,7 +108,27 @@ html, body{
     margin-top: 95%;
 }
 
+.effect1{opacity: 0; animation: show-text .9s 2.3s forwards;}
+.effect2{opacity: 0; animation: show-text .9s 2.7s forwards;}
+.effect3{opacity: 0; animation: show-text .9s 3.2s forwards;}
+.effect4{opacity: 0; animation: show-text .9s 3.6s forwards;}
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
+}
+
+@keyframes image-scale{
+    0%{transform:scale(0); opacity: 0;}
+    100%{transform:scale(1); opacity: 1;}    
+}
+
+@keyframes title-down{    
+    0%{transform: translateY(-300px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}     
+}
+
+@keyframes show-text{    
+    0%{transform: translateY(-300px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}     
 }
