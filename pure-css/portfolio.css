@@ -246,7 +246,7 @@ html, body{
     .grid-container{
         position: top;
         display: grid;
-        width: 100%;
+        width: fit-content;
         height: 100%;
         margin: 0;
         grid-template-columns: repeat(5, 20%);
