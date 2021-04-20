@@ -50,6 +50,41 @@ html, body{
     border-radius: 100%;
 }
 
+.text{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0;
+    text-align: center;
+    color: #000000;    
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 99px;
+    text-shadow: -6px 6px 0px #FF9423;
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.title-area{
+    position: absolute;
+    width: 82%;
+    height: 10%;
+    margin: 68% 0 0 8.5%;
+}
+
+.sub-area{
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    margin: 82% 0 0 19.7%;
+}
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
