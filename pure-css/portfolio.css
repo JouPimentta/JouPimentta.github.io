@@ -231,6 +231,7 @@ html, body{
         margin: 0 0 0 -17%;
     }
     .background{
+        display: none;
         position: fixed;
         width: 100%;
         height: 100%;
@@ -238,26 +239,28 @@ html, body{
         opacity: 0;
         pointer-events: none;
     }
-    .show{             
+    .show{     
+        display: block;        
         pointer-events: auto;
         opacity: 1;
         transition: all 0.3s ease;
     }
     .preview-box{
         position: fixed;
-        background-color: #fff;
         max-width: 760px;
         width: 100%;
         height: 90%;
         margin: 2% 0 0 21%;
-        border-radius: 0px 0px 30px 30px;
-        box-shadow: -10px 12px 0;
-        animation: shadow-color 5s infinite;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #fff;
+        border: 5px solid #375E7A;
+
     }
     .title-preview{
         display: flex;
         font-family: 'Quicksand', sans-serif;
         font-size: 20px;
+        color: #FFF;
         font-weight: normal;
         margin: 1%;
     }
@@ -265,9 +268,11 @@ html, body{
         display: flex;
         align-items: center;
         padding: 12px 15px 12px 10px;
+        background-color: #375E7A;
+        border-bottom: 4px solid #375E7A;
     }
     .title-preview p{
-        margin: 0 5px 0 5px
+        margin: 0 5px 0 5px;
     }
     .top-icon:hover{
         animation: rotate360 0.7s ease-in-out forwards;        
@@ -280,19 +285,19 @@ html, body{
     .slide{
         position: absolute;
         width: 90%;
-        margin: 27% 0 0 13%;
+        margin: 27% 0 0 1%;
     }
     .icon:hover{
         transition: 0.3s;
         transform: scale(1.3);
     }
     .next{
-        margin: 27% 0 0 81.5%;
+        margin: 27% 0 0 93%;
     }
     .top-icon{
         position: fixed;
         width: 3%;
-        margin: -2% 0 0 38%;
+        margin: -4% 0 0 52%;
     }
     .font-weight{
         font-weight: 600;
@@ -305,7 +310,7 @@ html, body{
     .img-box img{
         display: flex;
         width: 100%;
-        margin: 0 .3% 0 .3%;
+        margin: 5% 0 0 0;
         object-fit: contain;
     }
     #footer{
@@ -316,6 +321,7 @@ html, body{
         opacity: 0;
         animation: footer 0.5s 0.7s forwards;
         background-color: #fff;
+        animation: opacity 0.5s 0.7s forwards;
     }    
     #footer-text{
         font-family: 'Quicksand', sans-serif;;
