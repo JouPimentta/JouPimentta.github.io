@@ -245,6 +245,7 @@ html, body{
     .grid-container{
         position: absolute;    
         display: grid;
+        width: 100%;
         grid-template-columns: repeat(5, 269.5px);
         grid-template-rows: repeat(4, 269px);
     }
