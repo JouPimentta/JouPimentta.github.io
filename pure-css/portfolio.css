@@ -1,7 +1,15 @@
+/* CSS DOCUMENT
+ Pimentta Arts | Portfolio Page
+
+ MOBILE FIRST!
+ 
+ PAGE STRUCTURE */
 html, body{
     width: 100%;
     margin: 0;
 }
+
+/* BUTTONS */
 
 .button{    
     position: absolute;
@@ -29,11 +37,15 @@ html, body{
     margin-top: 9%;
 }
 
+/* PORTFOLIO-AREA */
+
 #portfolio-area{
     position: absolute;
     margin-top: 87%;
     width: 100.7%;
 }
+
+/* TEXTS */
 
 .title{
     font-family: 'Inter', sans-serif;
@@ -74,6 +86,8 @@ html, body{
     color: #000000;
 }
 
+/* IMAGES GRID */
+
 .grid-container{    
     width: 100%;
     display: grid;
@@ -81,11 +95,16 @@ html, body{
 }
 
 .image-area{margin: 0 0 -1% 0}
+
+/* IMAGES  */
+
 .images{
     width: 100.7%;
     opacity: 0;
     animation: opacity 0.5s 1.5s forwards;
 }
+
+/* FOOTER */
 
 #footer{
     position: absolute;
@@ -104,7 +123,13 @@ html, body{
     text-align: center;
     color: #000000;
 }
+
+/* DISPLAY NONE ON MOBILE */
+
 .background{display: none; pointer-events: none;}
+
+/* ANIMATIONS */
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
@@ -125,11 +150,19 @@ html, body{
     100% {opacity: 1;}
 }
 
+/* Portfolio page | DESKTOP */
+
 @media (min-width:1281px){
+
+    /* PAGE STRUCTURE */
+   
     html, body{
         width: 100%;
         margin: 0;
     }
+    
+    /* BUTTONS */
+
     .button{
         position: absolute;
         width: 25%;
@@ -159,6 +192,9 @@ html, body{
         transition: 0.2s;
         transform: scale(1.2);
     }
+    
+    /* TEXTS */
+
     .title{
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -194,12 +230,18 @@ html, body{
         font-style: normal;
         color: #000000;
     }
+    
+    /* PORTFOLIO AREA */
+
     #portfolio-area{
         position: absolute;
         margin-top: 23%;
         width: 100%;
         height: 170%;
     }
+    
+    /* IMAGES GRID */
+
     .grid-container{
         position: absolute;    
         display: grid;
@@ -207,6 +249,9 @@ html, body{
         grid-template-rows: repeat(4, 269px);
     }
     .image-area{overflow: hidden;}
+    
+    /* IMAGES */
+
     .images{
         width: 100%;
         height: 100%;
@@ -229,7 +274,10 @@ html, body{
     .horizont{
         width: 130%;
         margin: 0 0 0 -17%;
-    }
+    }    
+
+    /* PREVIEW BOX */
+    
     .background{
         display: none;
         position: fixed;
@@ -238,12 +286,6 @@ html, body{
         background-color: rgba(0, 0, 0, 0.7);  
         opacity: 0;
         pointer-events: none;
-    }
-    .show{     
-        display: block;        
-        pointer-events: auto;
-        opacity: 1;
-        transition: all 0.3s ease;
     }
     .preview-box{
         position: fixed;
@@ -256,6 +298,9 @@ html, body{
         border: 5px solid #375E7A;
 
     }
+
+    /* PREVIEW BOX TEXTS */
+
     .title-preview{
         display: flex;
         font-family: 'Quicksand', sans-serif;
@@ -274,6 +319,12 @@ html, body{
     .title-preview p{
         margin: 0 5px 0 5px;
     }
+    .font-weight{
+        font-weight: 600;
+    }
+    
+    /* PREVIEW BOX BUTTONS */
+
     .top-icon:hover{
         animation: rotate360 0.7s ease-in-out forwards;        
     }
@@ -299,9 +350,9 @@ html, body{
         width: 3%;
         margin: -4% 0 0 52%;
     }
-    .font-weight{
-        font-weight: 600;
-    }
+
+    /* PREVIEW BOX IMAGES*/
+
     .img-box{
         display: flex;
         width: 100%;
@@ -313,6 +364,18 @@ html, body{
         margin: 5% 0 0 0;
         object-fit: contain;
     }
+
+    /* PREVIEW BOX CLASSES | ADDED BY JS*/
+
+    .show{     
+        display: block;        
+        pointer-events: auto;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }    
+
+    /* FOOTER */
+
     #footer{
         position: absolute;
         width: 100%;
@@ -332,6 +395,9 @@ html, body{
         margin: 1.3% 0 0 0;
         color: #000000;
     }
+
+    /* ANIMATIONS */
+
     @keyframes button-opc{
         0%{opacity: 0;}
         100%{opacity: 1;}    
