@@ -307,6 +307,12 @@ a{color: #000;}
         position: absolute;
     }
 
+    .suit{
+        width: 163px;
+        height: 163px;
+        position: absolute;
+    }
+
     .button-text{
         width: 167px;
         height: 28px;
