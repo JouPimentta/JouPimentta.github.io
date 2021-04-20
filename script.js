@@ -2,16 +2,20 @@
 const images = document.querySelectorAll('.image-area'),
 previewBox = document.querySelector('.background'),
 previewImg = previewBox.querySelector('.image-show'),
-closeIcon = previewBox.querySelector('.x-icon');
+closeIcon = previewBox.querySelector('.x-icon'),
+currentImg = previewBox.querySelector('.current-img'),
+totalImg = previewBox.querySelector('.total-img');
 
 window.onload = () => {
     for (let i = 0; i < images.length; i++){
+        totalImg.textContent = images.length;
         let newIndex = i;
         let clickImgIndex;
         images[i].onclick = ()=>{
             clickImgIndex = newIndex;
             console.log(i);            
                 function preview(){
+                currentImg.textContent = newIndex + 1;
                     let imageUrl = images[newIndex].querySelector('img').src;
                     previewImg.src = imageUrl;
                     console.log(imageUrl);
