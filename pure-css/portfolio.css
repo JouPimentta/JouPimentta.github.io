@@ -82,7 +82,7 @@ html, body{
 
 .image-area{margin: 0 0 -1% 0}
 .images{
-    width: 100%;
+    width: 100.7%;
     opacity: 0;
     animation: opacity 0.5s 1.5s forwards;
 }
@@ -104,7 +104,7 @@ html, body{
     text-align: center;
     color: #000000;
 }
-
+.background{display: none; pointer-events: none;}
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
