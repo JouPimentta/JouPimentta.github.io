@@ -47,7 +47,7 @@ html, body{
     width: 64%;
     height: 29%;
     margin: 2% 0 0 17.5%;
-    border-radius: 1000px;
+    border-radius: 20000px;
     opacity: 0;
     transform: scale(0);
     animation: image-scale .7s .7s forwards;
