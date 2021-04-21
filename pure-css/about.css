@@ -1,3 +1,9 @@
+/* CSS DOCUMENT
+ Pimentta Arts | About me Page
+
+ MOBILE FIRST!
+ 
+ PAGE STRUCTURE */
 html, body{
     width: 100%;
     height: 100%;
@@ -6,6 +12,8 @@ html, body{
     background-size: 7%;
     background-position: 0.8% 0%;
 }
+
+/* BUTTONS */
 
 .button{    
     position: absolute;
@@ -33,12 +41,16 @@ html, body{
     margin-top: 9%;
 }
 
+/* ABOUT-AREA */
+
 .about-area{
     position: absolute;
     width: 100%;
     height: 100%;
     margin-top: 40%;
 }
+
+/* IMAGE */
 
 .image{
     position: absolute;
@@ -52,6 +64,8 @@ html, body{
     transform: scale(0);
     animation: image-scale .7s .7s forwards;
 }
+
+/* TEXTS */
 
 .text{
     font-family: 'Quicksand', sans-serif;
@@ -108,10 +122,14 @@ html, body{
 .p1{margin-top: 95%;}
 .p2{height: 25%;}
 
+/* ANIMATION EFFECTS */
+
 .effect1{opacity: 0; animation: show-text .9s 2.3s forwards;}
 .effect2{opacity: 0; animation: show-text .9s 2.7s forwards;}
 .effect3{opacity: 0; animation: show-text .9s 3.2s forwards;}
 .effect4{opacity: 0; animation: show-text .9s 3.6s forwards;}
+
+/* DECORATIONS */
 
 .line{
     width: 0%;
@@ -121,6 +139,8 @@ html, body{
 .red{background-color: #FF3523; animation: width 0.5s 3.8s forwards;}
 .orange{background-color: #FF5B23; animation: width 0.5s 4.2s forwards;}
 .yellow{background-color: #FF9423; animation: width 0.5s 4.6s forwards;}
+
+/* FOOTER */
 
 #footer{
     position: absolute;
@@ -142,6 +162,7 @@ html, body{
     color: #000000;
 }
 
+/* ANIMATIONS */
 
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
