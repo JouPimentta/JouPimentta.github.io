@@ -96,17 +96,16 @@ html, body{
 
 .p{
     width: 80%;
-    height: 31%;
+    height: 28%;
     margin: 0 0 0 10%;
 }
 
 .text1{
-    font-size: 50px;
+    font-size: 47px;
 }
 
-.p1{
-    margin-top: 95%;
-}
+.p1{margin-top: 95%;}
+.p2{height: 25%;}
 
 .effect1{opacity: 0; animation: show-text .9s 2.3s forwards;}
 .effect2{opacity: 0; animation: show-text .9s 2.7s forwards;}
