@@ -233,6 +233,26 @@ html, body{
         transition: 0.2s;
         transform: scale(1.2);
     }
+
+    .about-area{
+        position: absolute;
+        width: 100%;
+        height: 250%;
+        margin: 10% 0 0 0;
+    }
+    
+    .image{
+        position: absolute;
+        background-image: url('images/my_photo.jpg');
+        background-size: 100%;
+        width: 346px;
+        height: 346px;
+        margin: 0 0 0 37%;
+        border-radius: 1000px;
+        opacity: 0;
+        transform: scale(0);
+        animation: image-scale .7s .7s forwards;
+    }
     @keyframes button-opc{
         0%{opacity: 0;}
         100%{opacity: 1;}    
