@@ -253,6 +253,60 @@ html, body{
         transform: scale(0);
         animation: image-scale .7s .7s forwards;
     }
+    .text{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 430;
+        margin-top: 0;
+        text-align: center;
+        color: #000000;    
+    }
+    
+    .title{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        text-shadow: -4px 4px 0px #FF9423;
+    }
+    
+    .subtitle{
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .title-area{
+        position: absolute;
+        width: 82%;
+        height: 10%;
+        opacity: 0;
+        margin: 27% 0 0 8.5%;
+        animation: title-down 1s 1.3s forwards;
+    }
+    
+    .sub-area{
+        position: absolute;
+        width: 60%;
+        height: 5%;
+        margin: 34% 0 0 19.7%;
+        opacity: 0;
+        animation: title-down 1s 1.7s forwards;
+    }
+    
+    .p{
+        width: 40%;
+        height: 12%;
+        margin: 0 0 0 30%;
+        padding-top: 3%;
+    }
+    
+    .text1{
+        font-size: 25px;
+    }
+    
+    .p1{margin-top: 37%;}
+    
     @keyframes button-opc{
         0%{opacity: 0;}
         100%{opacity: 1;}    
