@@ -406,13 +406,6 @@ html, body{
         0% {transform: rotate(0);}
         100% {transform: rotate(360deg);}
     }
-    @keyframes shadow-color{
-        0% {box-shadow: -12px 12px 0 #FF3523;}
-        25%{box-shadow: -12px 12px 0 #FF5B23;}
-        50%{box-shadow: -12px 12px 0 #FF9423;}
-        75%{box-shadow: -12px 12px 0 #FF5B23;}
-        100% {box-shadow: -12px 12px 0 #FF3523;}
-    }    
     @keyframes opacity{
         0% {opacity: 0;}
         100% {opacity: 1;}
