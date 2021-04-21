@@ -113,6 +113,36 @@ html, body{
 .effect3{opacity: 0; animation: show-text .9s 3.2s forwards;}
 .effect4{opacity: 0; animation: show-text .9s 3.6s forwards;}
 
+.line{
+    width: 0%;
+    height: 0.5%;
+    margin-top: 2%;
+}
+.red{background-color: #FF3523; animation: width 0.5s 3.8s forwards;}
+.orange{background-color: #FF5B23; animation: width 0.5s 4.2s forwards;}
+.yellow{background-color: #FF9423; animation: width 0.5s 4.6s forwards;}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    margin-top: 6%;
+    opacity: 0;
+    animation: opacity 0.5s 0.7s forwards;
+}
+
+#footer-text{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 1;
+    margin-top: 6%;
+    text-align: center;
+    color: #000000;
+}
+
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
@@ -131,4 +161,14 @@ html, body{
 @keyframes show-text{    
     0%{transform: translateY(-300px); opacity: 0;}
     100%{transform: translateY(0px); opacity: 1;}     
+}
+
+@keyframes width{
+    0%{width: 0%;}
+    100%{width: 100%}    
+}
+   
+@keyframes opacity{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
