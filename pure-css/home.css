@@ -114,6 +114,11 @@ a{color: #000;}
     position: absolute;
 }
 
+.pepper{
+    width: 376px;
+    height: 386px;
+    position: absolute;
+}
 
 .button-text{
     width: 372px;
@@ -308,6 +313,12 @@ a{color: #000;}
     }
 
     .suit{
+        width: 163px;
+        height: 163px;
+        position: absolute;
+    }
+    
+    .pepper{
         width: 163px;
         height: 163px;
         position: absolute;
