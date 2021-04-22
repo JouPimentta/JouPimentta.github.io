@@ -121,6 +121,7 @@ html, body{
 }
 
 .icon-image{
+    position: absolute;
     width: 70%;
     height: 80%;
     margin: 11% 0 0 10%;
