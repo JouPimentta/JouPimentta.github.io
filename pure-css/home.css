@@ -120,6 +120,12 @@ a{color: #000;}
     position: absolute;
 }
 
+.arroba{
+    width: 376px;
+    height: 386px;
+    position: absolute;
+}
+
 .button-text{
     width: 372px;
     height: 100px;
@@ -319,6 +325,12 @@ a{color: #000;}
     }
     
     .pepper{
+        width: 163px;
+        height: 163px;
+        position: absolute;
+    }
+    
+    .arroba{
         width: 163px;
         height: 163px;
         position: absolute;
