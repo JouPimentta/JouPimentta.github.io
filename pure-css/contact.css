@@ -84,7 +84,6 @@ html, body{
 
 .icon-area{
     position: absolute;
-    background-color: thistle;
     width: 20%;
     height: 16%;
     margin-left: 3%;
@@ -115,6 +114,18 @@ html, body{
     margin-top: 6%;
     text-align: center;
     color: #000000;
+}
+
+.icon-image{
+    width: 80%;
+    height: 80%;
+    margin: 11% 0 0 10%;
+}
+
+.coming{
+    width: 50%;
+    height: 50%;
+    margin: 23% 0 0 23%;
 }
 
 @keyframes button-scale{
