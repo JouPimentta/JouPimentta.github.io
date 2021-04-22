@@ -38,6 +38,8 @@ html, body{
     width: 100%;
     height: 10%;
     margin: 33% 0 0 0;
+    opacity: 0;
+    animation: title-opc 0.5s 0.8s forwards;
 }
 
 .title{
@@ -53,6 +55,8 @@ html, body{
     width: 100%;
     height: 20%;
     margin: 55% 0 0 0;
+    opacity: 0;
+    animation: text-opc 0.5s 1.4s forwards;
 }
 
 .text{
@@ -85,7 +89,7 @@ html, body{
 .icon-area{
     position: absolute;
     width: 20%;
-    height: 16%;
+    height: 85%;
     margin-left: 3%;
 }
 
@@ -128,11 +132,32 @@ html, body{
     margin: 23% 0 0 23%;
 }
 
+.effect1{animation: button-link .7s 1.8s forwards; opacity: 0;}
+.effect2{animation: button-link .7s 2.2s forwards; opacity: 0;}
+.effect3{animation: button-link .7s 2.6s forwards; opacity: 0;}
+.effect4{animation: button-link .7s 3s forwards; opacity: 0;}
+.effect5{animation: button-link .7s 3.4s forwards; opacity: 0;}
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
 }
-   
+
+@keyframes title-opc{
+    0%{transform:translateX(-100px); opacity: 0;}
+    100%{transform: translateX(0); opacity: 1;}      
+}
+
+@keyframes text-opc{
+    0%{transform:translateY(-100px); opacity: 0;}
+    100%{transform: translateY(0); opacity: 1;}      
+}
+
+@keyframes button-link{    
+    0%{transform:translateX(-100px); opacity: 0;}
+    100%{transform: translateX(0); opacity: 1;}      
+}
+
 @keyframes opacity{
     0% {opacity: 0;}
     100% {opacity: 1;}
