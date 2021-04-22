@@ -1,4 +1,11 @@
-html, body{
+/* CSS DOCUMENT
+ Pimentta Arts | Contact Page
+
+ MOBILE FIRST!
+ 
+ PAGE STRUCTURE */
+
+ html, body{
     width: 100%;
     height: 100%;
     margin: 0;    
@@ -6,6 +13,8 @@ html, body{
     background-size: 7%;
     background-position: 0.8% 0%;
 }
+
+/* BUTTON */
 
 .button{    
     position: absolute;
@@ -32,6 +41,8 @@ html, body{
     text-align: center;
     margin-top: 9%;
 }
+
+/* TEXTS */
 
 .title-area{
     position: absolute;
@@ -70,6 +81,8 @@ html, body{
     text-align: center;
 }
 
+/* BUTTON LINKS */
+
 .button-area{
     position: absolute;
     width: 100%;
@@ -85,6 +98,8 @@ html, body{
     padding: 1%;
     border-left: 12px solid #375E7A;
 }
+
+/* BUTTON ICONS */
 
 .icon-area{
     position: absolute;
@@ -107,12 +122,16 @@ html, body{
     margin: 23% 0 0 23%;
 }
 
+/* BUTTON TEXT */
+
 .text-link{
     position: absolute;
     font-size: 50px;
     margin: 7% 0 0 27%;
     color: #BEA5A5;
 }
+
+/* FOOTER */
 
 #footer{
     position: absolute;
@@ -134,11 +153,15 @@ html, body{
     color: #000000;
 }
 
+/* ANIMATION EFFECTS */
+
 .effect1{animation: button-link .7s 1.8s forwards; opacity: 0;}
 .effect2{animation: button-link .7s 2.2s forwards; opacity: 0;}
 .effect3{animation: button-link .7s 2.6s forwards; opacity: 0;}
 .effect4{animation: button-link .7s 3s forwards; opacity: 0;}
 .effect5{animation: button-link .7s 3.4s forwards; opacity: 0;}
+
+/* ANIMATION */
 
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
@@ -165,7 +188,11 @@ html, body{
     100% {opacity: 1;}
 }
 
+/* Contact Page | DESKTOP */
+
 @media (min-width:1281px){    
+
+    /* PAGE STRUCTURE */
     
     html, body{
         width: 100%;
@@ -175,6 +202,9 @@ html, body{
         background-size: 4%;
         background-position: 0.8% 0%;
     } 
+
+    /* BUTTONS */
+
     .button{
         position: absolute;
         width: 25%;
@@ -204,6 +234,9 @@ html, body{
         transition: 0.2s;
         transform: scale(1.2);
     }
+
+    /* TEXTS */
+
     .title-area{
         position: absolute;
         width: 40%;
@@ -240,7 +273,9 @@ html, body{
         margin: 4% 7% 0 7%;
         text-align: right;
     }
-    
+
+    /* BUTTONS LINKS */
+        
     .button-area{
         position: absolute;
         width: 30%;
@@ -260,6 +295,9 @@ html, body{
         transition: 0.5s;
         background-color: #deedf8;
     }
+
+    /* BUTTONS ICONS */
+
     .icon-area{
         position: absolute;
         width: 20%;
@@ -280,6 +318,8 @@ html, body{
         height: 50%;
         margin: 23% 0 0 23%;
     }
+
+    /* BUTTONS TEXT */
     
     .text-link{
         position: absolute;
@@ -287,6 +327,9 @@ html, body{
         margin: 7% 0 0 27%;
         color: #BEA5A5;
     }
+
+    /* FOOTER */
+
     #footer{
         position: absolute;
         width: 100%;
@@ -305,6 +348,8 @@ html, body{
         text-align: center;
         color: #000000;
     }
+
+    /* ANIMATIONS */
     
     @keyframes button-opc{
         0%{opacity: 0;}
