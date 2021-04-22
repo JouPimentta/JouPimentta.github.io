@@ -1,4 +1,11 @@
-html, body{
+/* CSS DOCUMENT
+ Pimentta Arts | Contact Page
+
+ MOBILE FIRST!
+ 
+ PAGE STRUCTURE */
+
+ html, body{
     width: 100%;
     height: 100%;
     margin: 0;    
@@ -6,6 +13,8 @@ html, body{
     background-size: 7%;
     background-position: 0.8% 0%;
 }
+
+/* BUTTON */
 
 .button{    
     position: absolute;
@@ -32,6 +41,8 @@ html, body{
     text-align: center;
     margin-top: 9%;
 }
+
+/* TEXTS */
 
 .title-area{
     position: absolute;
@@ -70,6 +81,8 @@ html, body{
     text-align: center;
 }
 
+/* BUTTON LINKS */
+
 .button-area{
     position: absolute;
     width: 100%;
@@ -85,6 +98,8 @@ html, body{
     padding: 1%;
     border-left: 12px solid #375E7A;
 }
+
+/* BUTTON ICONS */
 
 .icon-area{
     position: absolute;
@@ -107,12 +122,16 @@ html, body{
     margin: 23% 0 0 23%;
 }
 
+/* BUTTON TEXT */
+
 .text-link{
     position: absolute;
     font-size: 50px;
     margin: 7% 0 0 27%;
     color: #BEA5A5;
 }
+
+/* FOOTER */
 
 #footer{
     position: absolute;
@@ -134,11 +153,15 @@ html, body{
     color: #000000;
 }
 
+/* ANIMATION EFFECTS */
+
 .effect1{animation: button-link .7s 1.8s forwards; opacity: 0;}
 .effect2{animation: button-link .7s 2.2s forwards; opacity: 0;}
 .effect3{animation: button-link .7s 2.6s forwards; opacity: 0;}
 .effect4{animation: button-link .7s 3s forwards; opacity: 0;}
 .effect5{animation: button-link .7s 3.4s forwards; opacity: 0;}
+
+/* ANIMATION */
 
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
@@ -163,4 +186,177 @@ html, body{
 @keyframes opacity{
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+/* Contact Page | DESKTOP */
+
+@media (min-width:1281px){    
+
+    /* PAGE STRUCTURE */
+    
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;    
+        background-image: url('images/backgrounds/cross_pattern_bckg.png');
+        background-size: 4%;
+        background-position: 0.8% 0%;
+    } 
+
+    /* BUTTONS */
+
+    .button{
+        position: absolute;
+        width: 25%;
+        height: 60px;
+        border-radius: 100px;
+    }
+    .button-text{
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        margin-top: 6.7%;
+    }
+    .top-button{
+        margin: 2% 0 0 37.3%;
+        background-color: #EAEAEA;
+        transform: scale(1);
+        opacity: 0;
+        transition: 0.2s;
+        animation: button-opc 0.5s 0.3s forwards;
+    }
+    .top-button:hover{
+        transition: 0.2s;
+        transform: scale(1.2);
+    }
+
+    /* TEXTS */
+
+    .title-area{
+        position: absolute;
+        width: 40%;
+        height: 16%;
+        margin: 9% 0 0 15%;
+        opacity: 0;
+        animation: title-opc 0.5s 0.8s forwards;
+    }
+    
+    .title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 72px;
+        margin: 0 0 0 13%;
+        text-shadow: -6px 6px 0px #A2C0D7;
+    }
+    
+    .text-area{
+        position: absolute;
+        width: 30%;
+        height: 25%;
+        margin: 17% 0 0 20%;
+        opacity: 0;
+        animation: text-opc 0.5s 1.4s forwards;
+    }
+    
+    .text{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    
+    .contact-text{    
+        font-size: 18px;
+        margin: 4% 7% 0 7%;
+        text-align: right;
+    }
+
+    /* BUTTONS LINKS */
+        
+    .button-area{
+        position: absolute;
+        width: 30%;
+        height: 70%;
+        margin: 11% 0 0 50%;
+    }    
+    .button-link{
+        background-color: #FFF;
+        width: 90%;
+        height: 16%;
+        margin: 2% 0 0 3%;
+        padding: 1%;
+        border-left: 5px solid #375E7A;
+    }
+    .button-link:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: #deedf8;
+    }
+
+    /* BUTTONS ICONS */
+
+    .icon-area{
+        position: absolute;
+        width: 20%;
+        height: 80%;
+        margin: 1.5% 0 0 1.5%;
+    }
+    
+    .icon-image{
+        position: absolute;
+        object-fit: contain;
+        width: 80%;
+        height: 90%;
+        margin: 5% 0 0 10%;
+    }
+    
+    .coming{
+        width: 50%;
+        height: 50%;
+        margin: 23% 0 0 23%;
+    }
+
+    /* BUTTONS TEXT */
+    
+    .text-link{
+        position: absolute;
+        font-size: 18px;
+        margin: 7% 0 0 27%;
+        color: #BEA5A5;
+    }
+
+    /* FOOTER */
+
+    #footer{
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        margin: 47% 0 0 0;
+        opacity: 0;
+        animation: opacity 0.5s 0.7s forwards;
+    }
+    #footer-text{        
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        margin-top: 0;
+        margin-bottom: 3%;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* ANIMATIONS */
+    
+    @keyframes button-opc{
+        0%{opacity: 0;}
+        100%{opacity: 1;}    
+    }    
+    @keyframes button-link{    
+        0%{transform:translateX(-100px); opacity: 0;}
+        100%{transform: translateX(0); opacity: 1;}      
+    }
 }
