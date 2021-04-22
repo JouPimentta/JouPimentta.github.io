@@ -47,6 +47,25 @@ html, body{
     margin: 0 0 0 13%;
     text-shadow: -10px 10px 0px #A2C0D7;
 }
+
+.text-area{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin: 55% 0 0 0;
+}
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.contact-text{    
+    font-size: 50px;
+    margin: 4% 7% 0 7%;
+    text-align: center;
+}
+
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
