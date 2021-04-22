@@ -78,7 +78,7 @@ html, body{
 }
 
 .button-link{
-    background-color: #fff;
+    background-color: #FFF;
     width: 90%;
     height: 16%;
     margin: 2% 0 0 3%;
@@ -89,8 +89,22 @@ html, body{
 .icon-area{
     position: absolute;
     width: 20%;
-    height: 85%;
-    margin-left: 3%;
+    height: 80%;
+    margin: 1.5% 0 0 1.5%;
+}
+
+.icon-image{
+    position: absolute;
+    object-fit: contain;
+    width: 80%;
+    height: 90%;
+    margin: 5% 0 0 10%;
+}
+
+.coming{
+    width: 50%;
+    height: 50%;
+    margin: 23% 0 0 23%;
 }
 
 .text-link{
@@ -118,19 +132,6 @@ html, body{
     margin-top: 6%;
     text-align: center;
     color: #000000;
-}
-
-.icon-image{
-    position: absolute;
-    width: 70%;
-    height: 80%;
-    margin: 11% 0 0 10%;
-}
-
-.coming{
-    width: 50%;
-    height: 50%;
-    margin: 23% 0 0 23%;
 }
 
 .effect1{animation: button-link .7s 1.8s forwards; opacity: 0;}
