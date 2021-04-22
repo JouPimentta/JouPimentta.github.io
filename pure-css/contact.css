@@ -33,6 +33,20 @@ html, body{
     margin-top: 9%;
 }
 
+.title-area{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    margin: 33% 0 0 0;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 130px;
+    margin: 0 0 0 13%;
+    text-shadow: -10px 10px 0px #A2C0D7;
+}
 @keyframes button-scale{
     0%{transform:scale(0); opacity: 0;}
     100%{transform:scale(1); opacity: 1;}    
